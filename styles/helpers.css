@@ -1,0 +1,38 @@
+/* helpers styles */
+
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+/* ANCHOR LINK */
+.anchor-link {
+    text-decoration: none;
+}
+.anchor-link:focus {
+    outline: none;
+}
+
+/* BEFORE AND AFTER PSEUDO SELECTORS */
+
+/* .anchor-link h1::before {
+    content: "this is before - "
+}
+
+.anchor-link h1::after {
+    content: " - this is after"
+} */
+
+    /* for icons there needs to be a  " \ " before the unicode */
+    /* Also requires font family... Where you aregettting it from  example: " Font Awsome 5 Pro "*/
+    /* Font Awesome requires 900 font weight when doing this */
+
+.anchor-link h1::after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f0c1";
+    font-weight: 900;
+}

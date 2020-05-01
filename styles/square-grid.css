@@ -1,0 +1,38 @@
+/* square grid styles */
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -8px;
+    margin-bottom: -4px;
+    
+}
+
+.square > .img-wrapper img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square > .square-text-wrapper h1 {
+    color: #cea135;
+}
